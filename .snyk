@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - superagent > extend:
+        patched: '2020-01-09T15:12:52.374Z'
+    - analytics-node > superagent > extend:
+        patched: '2020-01-09T15:12:52.374Z'
+    - knex > liftoff > extend:
+        patched: '2020-01-09T15:12:52.374Z'
+    - brute-knex > knex > liftoff > extend:
+        patched: '2020-01-09T15:12:52.374Z'
+    - ghost-ignition > bunyan-loggly > node-loggly-bulk > request > extend:
+        patched: '2020-01-09T15:12:52.374Z'
+    - bookshelf-relations > ghost-ignition > bunyan-loggly > node-loggly-bulk > request > extend:
+        patched: '2020-01-09T15:12:52.374Z'
+    - gscan > ghost-ignition > bunyan-loggly > node-loggly-bulk > request > extend:
+        patched: '2020-01-09T15:12:52.374Z'
+    - knex-migrator > ghost-ignition > bunyan-loggly > node-loggly-bulk > request > extend:
+        patched: '2020-01-09T15:12:52.374Z'
