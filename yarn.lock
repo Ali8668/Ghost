@@ -498,10 +498,6 @@ bcryptjs@2.4.3:
   version "2.4.3"
   resolved "https://registry.yarnpkg.com/bcryptjs/-/bcryptjs-2.4.3.tgz#9ab5627b93e60621ff7cdac5da9733027df1d0cb"
 
-bellajs@^7.2.2:
-  version "7.2.2"
-  resolved "https://registry.yarnpkg.com/bellajs/-/bellajs-7.2.2.tgz#dc6f8c13acb248dc2ef1b46d01286a16ca31025a"
-
 bignumber.js@4.0.4:
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-4.0.4.tgz#7c40f5abcd2d6623ab7b99682ee7db81b11889a4"
@@ -4146,9 +4142,10 @@ node-abi@^2.2.0:
   dependencies:
     semver "^5.4.1"
 
-node-fetch@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.1.2.tgz#ab884e8e7e57e38a944753cec706f788d1768bb5"
+node-fetch@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
 node-gyp@^3.6.2:
   version "3.6.2"
@@ -4377,13 +4374,12 @@ object.pick@^1.2.0, object.pick@^1.3.0:
   dependencies:
     isobject "^3.0.1"
 
-"oembed-parser@https://github.com/kevinansfield/oembed-parser/tarball/448496419130fa4c6c40c2471b6403bc6025f36a":
-  version "1.1.1"
-  resolved "https://github.com/kevinansfield/oembed-parser/tarball/448496419130fa4c6c40c2471b6403bc6025f36a#c6bf49487c4239e7c1cadd4a85c06714e1cf6dce"
+oembed-parser@1.4.6:
+  version "1.4.6"
+  resolved "https://registry.yarnpkg.com/oembed-parser/-/oembed-parser-1.4.6.tgz#06607db847ffbaeb6266c9ffb98c7d8a7f9b45aa"
+  integrity sha512-4AuEWsPf8GfNn/E+NB8lYrEbIzlvjuajwHkE4F9wUeavYfViEBn840PUWPslx1VU7Um6+H3O/b+4ByCzEIt5gA==
   dependencies:
-    bellajs "^7.2.2"
-    node-fetch "^2.1.2"
-    promise-wtf "^1.2.4"
+    node-fetch "^2.6.1"
 
 on-finished@^2.3.0, on-finished@~2.3.0:
   version "2.3.0"
@@ -4929,10 +4925,6 @@ process-nextick-args@~2.0.0:
 progress@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.0.tgz#8a1be366bf8fc23db2bd23f10c6fe920b4389d1f"
-
-promise-wtf@^1.2.4:
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/promise-wtf/-/promise-wtf-1.2.4.tgz#8cbdd31ea10dee074fbb6387cbc96e413993376c"
 
 propagate@^1.0.0:
   version "1.0.0"
